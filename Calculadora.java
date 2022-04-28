@@ -68,5 +68,8 @@ public static Integer dividir(Integer a, Integer b) {
  * Para evitar el problema en un futuro es recomentable configurar los datos de git con el comando "git config" y crear un token de acceso personal (con o sin vencimiento)
  
  *El parámetro -b se refiere al termino branch (rama en español), en este caso se utiliza "git checkout -b develop" para crear una nueva rama llamada "develop"
+ *
+ *Para realizar un merge request tengo que importar el proyecto a GitLab, pero debido a un error de la página no pude importarlo correctamente.
+ *Desde GitHub se puede realizar un merge de los pull request al proyecto. Previo a realizar el merge se debe revisar los cambios y fixes realizados en el codigo y luego realizar el merge de todos los pull request dentro del proyecto.
  */
 
